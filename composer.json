@@ -1,0 +1,15 @@
+{
+    "name": "edomato/net-smpp",
+    "description": "SMPP Protocol implementation for PHP",
+    "license": "MIT",
+    "keywords": ["smpp"],
+    "autoload": {
+        "psr-4": {
+            "edomato\\Net\\Smpp\\" : "src"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "ext-iconv": "*"
+    }
+}
